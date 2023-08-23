@@ -18,7 +18,7 @@ app.get("/jsonCalculadora", function (req, res) {
   res.send(json)
 });
 
-app.listen(3000,  ()=> {
+app.listen(3001,  ()=> {
   console.log("App de Exemplo executando na porta 3000!");
 });
 
